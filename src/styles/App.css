@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  max-width: 80%;
+  padding-bottom: 2rem;
+  margin: 2rem auto 2rem;
+  background: #fbfbfb;
+  border-radius: 0.5rem;
+  box-shadow: 0 3px 1px rgba(4, 0, 0, 0.04);
+  overflow: hidden;
+}

@@ -1,0 +1,38 @@
+navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 9vh;
+    background: #20584c;
+    color: white;
+  }
+
+  navbar a:hover,
+  navbar a.active {
+    background: #619166;
+  }
+
+  navbar a {
+    transition: 0.2s;
+  }
+
+  .nav-links {
+    width: 97%;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;  
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 1.3rem 1.4rem;
+  }
+
+  navbar li {
+    display: inline-block;
+  }
+  
+  navbar li + li {
+    margin-left: 0.2rem;
+  }
